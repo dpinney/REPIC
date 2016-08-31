@@ -1,0 +1,49 @@
+Conventions: OOO = still needs doing, XXX = done.
+
+XXX Can we make a Python library that rewrites files in place kind of like a repl? Yes. See below.
+
+XXX How is the syntax really supposed to work?
+
+=== BEFORE RUNNING ===
+test = [1,2,3]
+test.append(4)
+repl.print(test)
+=== AFTER RUNNING === 
+test = [1,2,3]
+test.append(4)
+repl.print(test)
+#REPLOUT: [1,2,3,4]
+=== END RUNNING ===
+
+XXX Why do we really want this? It is really convenient to see output right after input. But its a pain to update a file with outputs. Or rewrite a main function to only output a particular thing. And iPython does this but iPython has a lot of overhead (many processes, many interfaces, web browser required).
+
+XXX What about printing docs? Turns out help forces the output to the terminal. Probably a good thing.
+
+=== AFTER RUNNING === 
+test = [1,2,3]
+test.append(4)
+repl.print(test)
+#REPLOUT: The list command...
+=== END RUNNING ===
+
+XXX How do we implement this? Have the import run code after the file is done. Read in the source file. Walk through the lines. When you get to one that is of form repl.print, and the next line is already starting with #REPLOUT, replace that line with the print output. Else just put a new #REPLOUT output there.
+
+XXX Can we run code in an import after everything else? We don't need to. Just run as soon as we hit the statement.
+
+XXX Try mmap? Try fileinput? Try to read the whole thing then seek and write? fileinput works great.
+
+XXX What do I need to get this in to good shape? Write the docs. 
+
+XXX What additional test cases? Probably need to test and replace multiple new lines.
+
+XXX Code cleanup.
+
+XXX Problem with importing after install! Solved with inspect.getfile. Hint from here: http://stackoverflow.com/questions/50499/how-do-i-get-the-path-and-name-of-the-file-that-is-currently-executing
+
+OOO Github publish. Make sure the install link works.
+
+OOO Publicize on showHN at 9 AM ET.
+
+OOO Screencast showing how to use it? That would be really cool.
+
+OOO How to get a nice installation routine?
