@@ -40,7 +40,7 @@ XXX Code cleanup.
 
 XXX Problem with importing after install! Solved with inspect.getfile. Hint from here: http://stackoverflow.com/questions/50499/how-do-i-get-the-path-and-name-of-the-file-that-is-currently-executing
 
-OOO Github publish. Make sure the install link works.
+XXX Github publish. Make sure the install link works.
 
 OOO Publicize on showHN at 9 AM ET.
 

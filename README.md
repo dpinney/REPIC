@@ -22,7 +22,7 @@ REPIC(test)#OUTPUT: [1,2,3,4,5,6]
 
 ### Installation
 
-Download the REPIC.py file and include it in your code. You can also put it in [your sitepackages folder](http://stackoverflow.com/questions/122327/how-do-i-find-the-location-of-my-python-site-packages-directory) if you want to import from any script.
+Download the [REPIC.py](https://github.com/dpinney/REPIC/raw/master/REPIC.py) file and include it in your code. You can also put it in [your sitepackages folder](http://stackoverflow.com/questions/122327/how-do-i-find-the-location-of-my-python-site-packages-directory) if you want to import from any script.
 
 ### Thoughts
 
