@@ -27,6 +27,9 @@ def REPIC(obToPrint):
 			# Make results, but get rid of newlines in output since that will break the comment:
 			resultString = '#OUTPUT: ' + str(obToPrint).replace('\n','\\n') +'\n'
 			writeIndex = line.rfind('\n')
+			# Watch out for last line without newlines, there the end is just the line length.
+			if '\n' not in line:
+				writeIndex = len(line)
 			# Replace old output and/or any comments:
 			if '#' in line:
 				writeIndex = line.find('#')

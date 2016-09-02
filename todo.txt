@@ -46,4 +46,4 @@ OOO Publicize on showHN at 9 AM ET.
 
 OOO Screencast showing how to use it? That would be really cool.
 
-OOO How to get a nice installation routine?
+OOO Get a nice pip install?
