@@ -2,6 +2,14 @@
 
 REPIC is a Python function that will let you print output to comments inside the current file. It stands for Read, Evaluate, Print In Comments.
 
+### Install
+
+Install [Python 2.7.x](https://www.python.org/downloads/) and then in the terminal install via:
+
+```bash
+pip install REPIC
+```
+
 ### Usage Example
 
 Given a file test.py with the following content:
@@ -20,11 +28,7 @@ test = [1,2,3] + [4,5,6]
 REPIC(test)#OUTPUT: [1,2,3,4,5,6]
 ```
 
-### Installation
-
-Download the [REPIC.py](https://github.com/dpinney/REPIC/raw/master/REPIC.py) file and include it in your code. You can also put it in [your sitepackages folder](http://stackoverflow.com/questions/122327/how-do-i-find-the-location-of-my-python-site-packages-directory) if you want to import from any script.
-
-### Thoughts
+### Why
 
 Why in the world did I build this? I'm a huge fan or REPLs, but it's hard to save the output from them and go back and edit it later. iPython is great, it's probably the environment I develop Python in fastest, but with all the HTML and javascript frontend there's a lot of dependencies and new interfaces. REPIC lets you stay in your text editor or terminal environment and still get that convenient combination of code and output.
 

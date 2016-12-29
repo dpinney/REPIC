@@ -32,7 +32,7 @@ def REPIC(obToPrint):
 				writeIndex = len(line)
 			# Replace old output and/or any comments:
 			if '#' in line:
-				writeIndex = line.find('#')
+				writeIndex = line.rfind('#')
 			output = line[0:writeIndex] + resultString
 		else:
 			output = line # If no REPIC, then don't change the line.

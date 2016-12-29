@@ -42,8 +42,9 @@ XXX Problem with importing after install! Solved with inspect.getfile. Hint from
 
 XXX Github publish. Make sure the install link works.
 
+XXX Get a nice pip install.
+
 OOO Publicize on showHN at 9 AM ET.
 
 OOO Screencast showing how to use it? That would be really cool.
 
-OOO Get a nice pip install?
