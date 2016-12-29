@@ -4,10 +4,10 @@ from distutils.core import setup
 
 setup(
 	name='REPIC',
-	version='1.0',
+	version='1.1',
 	description='Read Evaluate Print in Comments',
 	author='David Pinney',
 	author_email='david@pinney.org',
-	url='https://pypi.python.org/pypi/addmult/',
+	url='https://github.com/dpinney/REPIC/',
 	py_modules=['REPIC']
 )
