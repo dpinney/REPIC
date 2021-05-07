@@ -3,4 +3,4 @@
 
 python setup.py sdist
 python setup.py register
-python setup.py sdist upload
+twine upload dist/* #note: must increment version number to have a succesful upload.
