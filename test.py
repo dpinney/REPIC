@@ -10,7 +10,7 @@ def _tests():
 	test.append(8)
 	REPIC(test)#OUTPUT: [1, 2, 3, 999, 4, 8]
 	# Another test:
-	REPIC(345 + 2 / 4)#OUTPUT: 345
+	REPIC(345 + 2 / 4)#OUTPUT: 345.5
 	# Tricky test:
 	REPIC('Uh oh here is\n a multiline output')#OUTPUT: Uh oh here is\n a multiline output
 
