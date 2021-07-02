@@ -4,7 +4,7 @@ REPIC is a Python function that will let you print output to comments inside the
 
 ### Install
 
-Install [Python 2.7.x](https://www.python.org/downloads/) and then in the terminal install via:
+Install [Python](https://www.python.org/downloads/) and then in the terminal install via:
 
 ```bash
 pip install REPIC
@@ -32,7 +32,7 @@ REPIC(test)#OUTPUT: [1,2,3,4,5,6]
 
 Why in the world did I build this? I'm a huge fan or REPLs, but it's hard to save the output from them and go back and edit it later. iPython is great, it's probably the environment I develop Python in fastest, but with all the HTML and javascript frontend there's a lot of dependencies and new interfaces. REPIC lets you stay in your text editor or terminal environment and still get that convenient combination of code and output.
 
-This library works great with Python 2.7 files edited with Sublime text. You run the file and the output shows up immediately. This might not be the case in every editor and Python environment since this code uses a lot of hackish features.
+This library works great with Python files edited with Sublime text. You run the file and the output shows up immediately. This might not be the case in every editor and Python environment since this code uses a lot of hackish features.
 
 ### Thanks
 
